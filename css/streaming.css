@@ -1,0 +1,18 @@
+#live-streaming-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#live-streaming-article h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+#live-streaming-article img {
+    height: auto;
+    border-radius: 0.5em;
+}

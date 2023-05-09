@@ -1,0 +1,54 @@
+/*nav*/
+/*nav-bar, nav-menu, nav-ul*/
+#nav-bar {
+    background-color: #0a0217;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 3.5em;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*nav-search-login, input, nav-search-buttons*/
+#nav-search-login {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+#nav-search-input {
+    position: relative;
+}
+
+#nav-search-input input {
+    width: 12em;
+    height: 3rem;
+    padding-left: 2.2rem;
+    border: 1px solid orangered;
+    background-color: inherit;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.bx-search {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: orangered;
+}
+
+#nav-search-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}

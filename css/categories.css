@@ -1,0 +1,38 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.categories-titles h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.categories-titles button {
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 1rem 2rem;
+    background-color: #3d3647;
+}
+
+.categories-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.categories-images img {
+    width: 31.5%;
+    border-radius: 1rem;
+}

@@ -1,0 +1,17 @@
+#title-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    line-height: 3em;
+    margin: 2em 0;
+}
+
+#title-article h2 {
+    font-size: 2rem;
+}
+
+#title-article p {
+    font-size: 1rem;
+}

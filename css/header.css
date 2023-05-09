@@ -1,0 +1,67 @@
+/*header-container*/
+header {
+    display: flex;
+    margin: 3em 0 1.5em;
+}
+
+#left-header-main-title {
+    margin-bottom: 2rem;
+}
+
+#left-header-main-title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#left-header-main-title p {
+    font-size: 1rem;
+    line-height: 2em;
+}
+
+/*left-header-buttons-div*/
+#left-header-buttons {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+/*left-header-available*/
+#left-header-available p {
+    font-size: 1rem;
+    color: orangered;
+}
+
+/*left-header-platform-icons*/
+#left-header-platform-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1em 0;
+}
+
+#left-header-platform-ps {
+    width: 3em;
+    height:2.2em;
+}
+
+#left-header-platform-xbox {
+    width:3.5em;
+    height:3.5em;
+}
+
+#left-header-platform-windows {
+    width:11em;
+    height:2.5em;
+}
+
+/*right-header-img*/
+#right-header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-header-img {
+    border-radius: 1rem;
+}

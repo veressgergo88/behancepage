@@ -1,0 +1,47 @@
+#stat-article {
+    display: flex;
+    justify-content: center;
+    border: 2px solid orangered;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    padding: 2.5em 0;
+}
+
+.st-atc-bx {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2em 8em;
+}
+
+.stats {
+    color: white;
+}
+
+.st-atc-bx img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.ctr img {
+    background-color: white;
+}
+
+.project img {
+    background-color: white;
+}
+
+.stats h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.stats p {
+    font-size: 1rem;
+}
+
+.ctr {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
